@@ -1,6 +1,7 @@
 from datetime import date
 from sys import stderr
 
+aaa
 
 start = date(2020, 1, 1)
 today = date.today()
