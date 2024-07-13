@@ -1,0 +1,11 @@
+name: python application
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout python code
+      uses: actions/checkout@v4
+
